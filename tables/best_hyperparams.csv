@@ -1,0 +1,8 @@
+Modelo,Mejor AUC-ROC (CV),AUC-ROC (TEST),Mejores Params
+SVM_linear,0.9120,0.9587,{'C': 0.01}
+SVM_rbf,0.9126,0.9609,"{'C': 1, 'gamma': 0.01}"
+SVM_poly,0.9282,0.9386,"{'C': 1, 'coef0': 0, 'degree': 3}"
+SVM_sigmoid,0.9134,0.9576,"{'C': 0.1, 'coef0': 0, 'gamma': 'scale'}"
+RandomForest,0.9364,0.9269,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}"
+GradientBoosting,0.9140,0.9196,"{'learning_rate': 0.01, 'max_depth': 3, 'min_samples_split': 2, 'n_estimators': 200, 'subsample': 0.8}"
+AdaBoost,0.9219,0.9129,"{'estimator__max_depth': 2, 'learning_rate': 0.1, 'n_estimators': 200}"

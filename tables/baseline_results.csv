@@ -1,0 +1,2 @@
+,AUC-ROC,F1-Score,Accuracy,Recall
+Baseline (LogReg),0.8906 ± 0.0721,0.7861 ± 0.0845,0.8140 ± 0.0746,0.7511 ± 0.1100
